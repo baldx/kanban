@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="add">Add task</button>
+
+    <form>
+        <label for="name">
+            Name:
+            <input type="text" name="name" id="name" required>
+        </label>
+        <label for="task">
+            Task:
+            <input type="text" name="task" id="task" required>
+        </label>
+        <label for="status">
+            <div class="done">
+                Done:
+                <input type="radio" name="status" id="done" value="done" required>
+            </div>
+        </label>
+
+        <button type="submit" class="submit">Add task</button>
+    </form>
+
+    <div class="todo">
+        <div class="name">John Doe</div>
+        <div class="task">Refill paint for the printer</div>
+        <button class="status">Done</button>
+    </div>
+
+</body>
+</html>
