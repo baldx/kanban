@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.add {
+    width: 150px;
+}
+
+button {
+    padding: 8px;
+    font-size: 1em;
+}
+
+form {
+    display: none;
+    position: absolute;
+    background-color: rgb(234, 154, 101);
+}
